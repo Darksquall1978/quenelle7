@@ -13,10 +13,10 @@ timeout /t 2 /nobreak > nul
 @echo  suppression du .git
 RMDIR /s /q .git
 ::timeout /t 1 /nobreak > nul
-@echo  suppression du dossier Mods
+::@echo  suppression du dossier Mods
 ::RMDIR /s /q ex1\ex2\ex3\ex4.test
-timeout /t 1 /nobreak > nul
-@echo  suppression de test10
+::timeout /t 1 /nobreak > nul
+::@echo  suppression de test10
 ::RMDIR /s /q dossier1\test10.exe
 
  
