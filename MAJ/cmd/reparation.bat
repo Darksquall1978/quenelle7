@@ -32,7 +32,7 @@ timeout /t 1 /nobreak > nul
 ::ok
 ::pause
 
-xcopy maj\cmd\quenelle7\dossier1\ dossier1/y
+::xcopy maj\cmd\quenelle7\dossier1\ dossier1/y
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
