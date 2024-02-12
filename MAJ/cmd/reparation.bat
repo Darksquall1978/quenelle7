@@ -14,10 +14,10 @@ timeout /t 2 /nobreak > nul
 RMDIR /s /q .git
 ::timeout /t 1 /nobreak > nul
 @echo  suppression du dossier Mods
-RMDIR /s /q ex1\ex2\ex3\ex4.test
+::RMDIR /s /q ex1\ex2\ex3\ex4.test
 timeout /t 1 /nobreak > nul
 @echo  suppression de test10
-RMDIR /s /q dossier1\test10.exe
+::RMDIR /s /q dossier1\test10.exe
 
  
 @echo  Copie des fichiers source
@@ -37,7 +37,7 @@ timeout /t 1 /nobreak > nul
 ::ok
 ::pause
 
-robocopy maj\cmd\quenelle7\ex1\Mods ex1\Mods /mt /z /e
+::robocopy maj\cmd\quenelle7\ex1\Mods ex1\Mods /mt /z /e
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
