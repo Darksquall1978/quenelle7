@@ -5,7 +5,7 @@
 
 timeout /t 3
 
-robocopy  ".\Endnight" /e /s "%userprofile%\appdata\locallow\Endnight"
+robocopy  ".\MAJ\Save\Endnight" /e /s "%userprofile%\appdata\locallow\Endnight"
 
 @echo Votre personnage est restore.
 timeout /t 5
